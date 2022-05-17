@@ -8,7 +8,9 @@ __all__ = ['UnetBlock', 'ResizeToOrig', 'DynamicUnet']
 
 # Cell
 #nbdev_comment from __future__ import annotations
+# OpenRefactory Warning: Importing every public name using star import should be avoided.
 from ...torch_basics import *
+# OpenRefactory Warning: Importing every public name using star import should be avoided.
 from ...callback.hook import *
 
 # Cell
